@@ -7,6 +7,7 @@ Collection URL: https://spookyqubits.github.io/SpookySignals/
 ## Games
 
 - **Ghost Mail** — `games/ghost-mail/`. Solo Courier, Solo Spy, and Pass & Play for 2–3 people on one phone. Includes a Signal Lab, Calm Night and Noisy Night, an offline download, and a printable facilitator guide.
+- **Ghost Relay** — `games/ghost-relay/`. A six-delivery teleportation mission for a Solo Operator or 2–3 people sharing Sender, Courier, and Receiver roles. Includes a limited classical-resend budget, conditional X/Z corrections, state replays, a Relay Lab, and a printable guide.
 
 Each game has its own folder under `games/`. Additional games can be added without changing the collection's address. Only completed games appear in the library.
 
@@ -17,6 +18,9 @@ SpookySignals/
   games/
     ghost-mail/
       index.html                game and Signal Lab
+      guide.html                printable facilitator guide
+    ghost-relay/
+      index.html                teleportation game and Relay Lab
       guide.html                printable facilitator guide
   downloads/
     spooky-signals-classroom-kit.zip
@@ -30,6 +34,6 @@ Publish from **Settings → Pages → Deploy from a branch → main → /(root)*
 
 ## Sources and model scope
 
-Ghost Mail implements preparation and measurement in the Z/X bases and an intercept-resend attack on Bennett and Brassard's BB84 protocol. It is a classical simulation, not a real quantum key exchange. Scores are teaching rules, not security calculations. Sources, educational precedents, and model limits are in its rules and guide. No measured learning-gain or first-of-its-kind claim is made.
+Ghost Mail implements preparation and measurement in the Z/X bases and an intercept-resend attack on Bennett and Brassard's BB84 protocol. It is a classical simulation, not a real quantum key exchange. Ghost Relay models ideal quantum teleportation with a shared Bell pair and two classical bits; channel faults and resend stamps are fictional teaching mechanics. Its replay distinguishes exact simulator state comparisons from evidence available on one unknown qubit. Scores are teaching rules, not security calculations. Sources, educational precedents, and model limits are in each game’s rules and guide. No measured learning-gain or first-of-its-kind claim is made.
 
 Design and code prepared for SpookyQubits, 2 November 2026. Credits in linked materials remain with their authors.
